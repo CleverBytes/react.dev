@@ -74,5 +74,5 @@ await Promise.all(
     console.log(`Downloaded ${path}`);
   })
 );
-
+  "onCreateCommand": ["/bin/bash", "-c", "npm run setup"],
 console.log("All fonts downloaded.");
